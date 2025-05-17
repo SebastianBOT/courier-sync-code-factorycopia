@@ -1,5 +1,11 @@
+import Login from "../components/Login";
+import Menu from "../components/Menu";
+
 export default function Home() {
   return (
-    <h1>!! Hello world with GitHub Actions !!</h1>
+    <div>
+      <Login />
+      <Menu />
+    </div>
   );
 }
