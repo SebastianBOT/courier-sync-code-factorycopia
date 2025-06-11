@@ -35,9 +35,9 @@ export default function RegistroForm() {
             "Teléfono",
             "Peso",
             "Dimensiones",
-          ].map((placeholder, index) => (
+          ].map((placeholder) => (
             <input
-              key={index}
+              key={placeholder}
               className={`p-3 rounded text-black focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-200 hover:scale-105 hover:shadow-lg ${
                 placeholder === "Dirección" ? "md:col-span-2" : ""
               }`}
