@@ -43,8 +43,9 @@ export default function LoginPage() {
 
             <form onSubmit={handleLogin} className="flex flex-col gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Usuario</label>
+                <label htmlFor="usuario" className="block text-sm font-medium text-gray-700 mb-1">Usuario</label>
                 <input
+                  id="usuario"
                   type="text"
                   className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#052A47] transition-all duration-200 text-sm"
                   placeholder="Ingresa tu usuario"
@@ -53,8 +54,9 @@ export default function LoginPage() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Contraseña</label>
+                <label htmlFor="contrasena" className="block text-sm font-medium text-gray-700 mb-1">Contraseña</label>
                 <input
+                  id="contrasena"
                   type="password"
                   className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#052A47] transition-all duration-200 text-sm"
                   placeholder="Ingresa tu contraseña"
